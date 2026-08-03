@@ -1,6 +1,6 @@
-class Hello
+public class Variable
 {
-    public static void main(String a[])
+    public static void main(String[] args)
     {
        int num1=3;
        int num2=5;
