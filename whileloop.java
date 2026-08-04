@@ -6,8 +6,8 @@ public class whileloop {
         while(i<=4)
         {
             System.out.println(" Hi " + i);
-            int j = 1;
-            while(j<=3){
+            int j = 1;                                       //nested loop 
+            while(j<=3){    
                 System.out.println("Hello" + j);
                 j++;
             }
