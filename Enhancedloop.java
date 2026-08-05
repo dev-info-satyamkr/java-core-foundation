@@ -5,7 +5,7 @@ class Student
     int marks;
 }
 
-public class StringArray
+public class Enhancedloop
  {
   public static void main(String a[])  
   {
@@ -30,26 +30,17 @@ public class StringArray
     Students[1] = s2;
     Students[2] = s3;
 
-    for(int i=0;i<Students.length;i++)
-    {
-        System.out.println(Students[i].name + " . " + Students[i].marks);
 
-    }
+  for(Student stud : Students)
+  {
+    System.out.println( stud.name + " . " + stud.marks + " . " + stud.rollno);
+  }
+
+    // for(int i=0;i<Students.length;i++)
+    // {
+    //     System.out.println(Students[i].name + " . " + Students[i].marks);
+
+    // }
 }
 
  }
-
-
-//     int nums[] = new int [4];
-//     nums[0]= 20;
-//     nums[1]= 30;
-//     nums[2]=40;
-//     nums[3]=50;
-
-//     for(int i =0;i<nums.length;i++)
-//     {
-//         System.out.println(nums[i]);
-        
-//     }
-//   }
-// }
