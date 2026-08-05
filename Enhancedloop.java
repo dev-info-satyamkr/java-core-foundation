@@ -1,7 +1,7 @@
 class Student 
 {
     int rollno;
-    String name;
+    java.lang.String name;
     int marks;
 }
 
@@ -22,7 +22,7 @@ public class Enhancedloop
 
     Student s3 = new Student();
     s3.rollno = 3;
-    s3.name = "Ram";
+    s3.name = "swayam";
     s3.marks = 70;
 
     Student  Students [] = new Student[3];

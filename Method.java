@@ -4,7 +4,7 @@
     {
     System.out.println("Music is Playing.. ");
     }
-    public String getMeAPen(int cost)
+    public java.lang.String getMeAPen(int cost)
     {
         if (cost >=10)
         return "Pen";
@@ -17,11 +17,11 @@
 class demo
 {
 
-    public static void main(String a[])
+    public static void main(java.lang.String a[])
     {
         Method obj = new Method();
         obj.playmusic();
-        String str = obj.getMeAPen(10);
+        java.lang.String str = obj.getMeAPen(10);
         System.out.println(str);
 
     }

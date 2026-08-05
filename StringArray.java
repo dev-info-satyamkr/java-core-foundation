@@ -1,7 +1,7 @@
 class Student 
 {
     int rollno;
-    String name;
+    java.lang.String name;
     int marks;
 }
 

@@ -9,7 +9,7 @@ public class logical
 
        // boolean result = a < b && y > x;
     //    boolean result = a < b || y > x || a > 1;
-        boolean result = x < y;
+        boolean result = a < b && y > x;
 
           System.out.println( !result);
 
