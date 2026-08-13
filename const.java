@@ -1,3 +1,6 @@
+//   constuctor in java 
+
+
 class ConstDemo {
     static class Human {
         private int age;
