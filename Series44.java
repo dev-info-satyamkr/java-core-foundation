@@ -37,3 +37,4 @@ class ConstDemo {
         System.out.println(obj.getName() + " : " + obj.getAge());
     }
 }
+
