@@ -1,7 +1,7 @@
 // Encapsulation in java 
 
 
-public class Human {
+ class machine {
     private String name;
     private int age;
 
@@ -22,11 +22,11 @@ public class Human {
     }
 }
 
-class machine {
+public class Human {
     public static void main(String[] args) {
-        Human obj = new Human();
+        machine obj = new machine();
         obj.setAge(30);
-        obj.setName("Yadav");
+        obj.setName("Yadav"); 
 
         System.out.println(obj.getName() + " : " + obj.getAge());
     }
