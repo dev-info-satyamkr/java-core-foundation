@@ -30,6 +30,6 @@ public class series51
 {
   public static void main(String a[])
   {
-    B obj = new B(5);
+    new B(5);
   }
 }
