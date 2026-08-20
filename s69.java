@@ -3,7 +3,7 @@ enum Status
    Running, failed, Pending, Sucess;  
 }
 
-public class Series69
+public class s69
 {
     public static void main(String a[])
     {
