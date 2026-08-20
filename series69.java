@@ -1,14 +1,14 @@
-enum status
+enum Status
  {
    Running, failed, Pending, Sucess;  
 }
 
-public class series69
+public class Series69
 {
     public static void main(String a[])
     {
 
-        status s = status.Pending;
+        Status s = Status.Pending;
 
         switch (s) {
             case Running:
